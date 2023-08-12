@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0b01382.css",
+    "main.js": "/static/js/main.e0b94842.js",
+    "static/media/Caveat-Regular.ttf": "/static/media/Caveat-Regular.1f129497cd349562c266.ttf",
+    "static/media/CherryBombOne-Regular.ttf": "/static/media/CherryBombOne-Regular.d7d36c40a5bdf484d273.ttf",
+    "static/media/Google Logo.png": "/static/media/Google Logo.ba8051e6e74d3adfb3c8.png",
+    "static/media/ShadowsIntoLight-Regular.ttf": "/static/media/ShadowsIntoLight-Regular.e8c09384ff0643bf385d.ttf",
+    "static/media/Belanosima-Regular.ttf": "/static/media/Belanosima-Regular.b88b03558170595da2d8.ttf",
+    "index.html": "/index.html",
+    "main.c0b01382.css.map": "/static/css/main.c0b01382.css.map",
+    "main.e0b94842.js.map": "/static/js/main.e0b94842.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0b01382.css",
+    "static/js/main.e0b94842.js"
+  ]
+}

@@ -1,0 +1,125 @@
+body
+{
+    background-color: black;
+}
+
+.container
+{
+    margin: auto;
+    width: 350px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50px;
+    box-shadow: 0px 10px 50px rgb(10, 0, 96), 0px 0px 50px rgb(85, 108, 255),
+    inset 0px 0px 20px lightgray;
+    margin-top: 100px;
+}
+
+#container_h2
+{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#container_p
+{
+    font-size: 35px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    margin-top: -10px;
+    border-radius: 20px;
+}
+
+.buttons_row1
+{
+    margin-bottom: 10px;
+}
+
+.buttons_row2
+{
+    margin-bottom: 10px;
+}
+
+.buttons_row3
+{
+    margin-bottom: 10px;
+}
+
+.buttons_row4
+{
+    margin-bottom: 10px;
+}
+
+.buttons_row5
+{
+    margin-bottom: 10px;
+}
+
+button
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 40px;
+    margin-right: 3px;
+    background-color: rgb(0, 0, 28);
+    color: white;
+    text-shadow: 0px 0px 20px white;
+}
+
+#button_c
+{
+    color: red;
+}
+
+#button_eq
+{
+    background-color: rgb(0, 54, 104);
+}
+
+#button_par
+{
+    color: rgb(0, 135, 219)
+}
+
+#button_per
+{
+    color: rgb(0, 135, 219)
+}
+
+#button_division
+{
+    color: rgb(0, 135, 219)
+}
+
+#button_mult
+{
+    color: rgb(0, 135, 219)
+}
+
+#button_minus
+{
+    color: rgb(0, 135, 219)
+}
+
+#button_plus
+{
+    color: rgb(0, 135, 219)
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: rgb(14, 14, 47);
+}
+
+#button_eq:hover
+{
+    background-color: rgb(0, 71, 137);
+}

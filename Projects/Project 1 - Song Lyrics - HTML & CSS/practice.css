@@ -1,0 +1,151 @@
+@font-face
+{
+    src: url(Fonts/Belanosima-Regular.ttf);
+    font-family: Bela;
+}
+
+@font-face
+{
+    src: url(Fonts/Caveat-Regular.ttf);
+    font-family: Cav;
+}
+
+@font-face
+{
+    src: url(Fonts/CherryBombOne-Regular.ttf);
+    font-family: CherB;
+}
+
+@font-face
+{
+    src: url(Fonts/ShadowsIntoLight-Regular.ttf);
+    font-family: shadI;
+}
+
+body
+{
+    background-color: rgb(30, 30, 30);
+}
+
+header
+{
+    margin: 10px;
+    display: flow-root;
+}
+
+#header_h1
+{
+    /*margin-left: 10px;*/
+    font-family: Bela;
+    color: rgb(54, 186, 67);
+    font-size: 65px;
+}
+
+#header_h2
+{
+    /*margin-left: 10px;*/
+    font-family: Cav;
+    color: rgb(37, 207, 182);
+    font-size: 50px;
+}
+
+#header_link1
+{
+    font-family: CherB;
+    color: rgb(226, 237, 25);
+    font-size: 30px;
+}
+
+#header_img
+{
+    height: 320px;
+    width: 525px;
+    float: right;
+}
+
+#header_line1
+{
+    border: 5px;
+    border-style: dashed;
+    border-color: rgb(36, 197, 47);
+}
+
+#main_h1
+{
+    text-align: center;
+    color: rgb(15, 225, 131);
+    font-family: Cav;
+    font-size: 50px;
+    text-shadow: 10px 5px 10px rgb(11, 185, 220);
+}
+
+#main_pre1
+{
+    margin-left: -160px;
+    text-align: center;
+    font-size: 25px;
+    font-family: ShadI;
+    color: wheat;
+}
+
+#main_line1
+{
+    border: 5px;
+    border-style: dashed;
+    border-color: rgb(36, 197, 47);
+}
+
+#main_div1
+{
+    border: 6px;
+    border-style: dotted;
+    border-bottom: none;
+    border-color: tomato;
+    border-radius: 10px 10px 0px 0px;
+    display: flow-root;
+    width: 650px;
+    margin-left: 430px;
+}
+
+#main_div_link1
+{
+    text-indent: 15px;
+    font-family: CherB;
+    color: rgb(226, 237, 25);
+    font-size: 25px;
+    float: left;
+    margin-top: 16px;
+}
+
+#main_div_par1
+{
+    margin-right: 105px;
+    font-size: 20px;
+    font-family: Bela;
+    color: rgb(46, 142, 232);
+    font-weight: bold;
+    text-align: right;
+}
+
+#main_div_audio1
+{
+    float: right;
+    margin-right: 25px;
+}
+
+#footer_par1
+{
+    text-align: center;
+    font-family: Cav;
+    font-size: 40px;
+    color: rgb(254, 243, 34);
+}
+
+#footer_par2
+{
+    text-align: center;
+    font-family: Bela;
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 10px 3px 10px rgb(125, 32, 255);
+}

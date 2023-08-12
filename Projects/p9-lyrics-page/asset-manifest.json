@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfedc2cc.css",
+    "main.js": "/static/js/main.c4859151.js",
+    "static/media/Song.mp3": "/static/media/Song.314068c5a4c49ab84d19.mp3",
+    "static/media/Caveat-Regular.ttf": "/static/media/Caveat-Regular.1f129497cd349562c266.ttf",
+    "static/media/CherryBombOne-Regular.ttf": "/static/media/CherryBombOne-Regular.d7d36c40a5bdf484d273.ttf",
+    "static/media/ShadowsIntoLight-Regular.ttf": "/static/media/ShadowsIntoLight-Regular.e8c09384ff0643bf385d.ttf",
+    "static/media/Belanosima-Regular.ttf": "/static/media/Belanosima-Regular.b88b03558170595da2d8.ttf",
+    "static/media/Moje More Cover Picture.jpg": "/static/media/Moje More Cover Picture.b173c35bc8461d81f463.jpg",
+    "index.html": "/index.html",
+    "main.dfedc2cc.css.map": "/static/css/main.dfedc2cc.css.map",
+    "main.c4859151.js.map": "/static/js/main.c4859151.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfedc2cc.css",
+    "static/js/main.c4859151.js"
+  ]
+}
