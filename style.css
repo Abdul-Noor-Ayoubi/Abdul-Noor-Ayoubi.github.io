@@ -1,0 +1,837 @@
+@font-face
+{
+    src: url(Fonts/Dai_Banna_SIL/DaiBannaSIL-Regular.ttf);
+    font-family: BannaReg;
+}
+
+@font-face
+{
+    src: url(Fonts/Galdeano/Galdeano-Regular.ttf);
+    font-family: gald;
+}
+
+body
+{
+    background-color: rgb(184, 228, 236);
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+header
+{
+    background-color: rgb(46, 42, 42);
+    height: 70px;
+    border-bottom: 5px solid rgb(80, 144, 80);
+    display: flex;
+}
+
+.my_nav
+{
+    width: 100%;
+    height: 70px;
+}
+
+.nav_ul
+{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_title_item
+{
+    float: left;
+    font-size: 65px;
+    margin-left: 15px;
+    font-family: gald;
+    color: wheat;
+    margin-top: 5px;
+}
+
+.nav_ul_item
+{
+    float: right;
+}
+
+.nav_link_btn
+{
+    width: 140px;
+    height: 70px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(178, 241, 177);
+    background: none;
+    border: none;
+    border-left: 2px solid black;
+}
+
+#nav_link_projects_btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(84, 226, 239);
+    color: black;
+    border: none;
+}
+
+#nav_link_about_btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(223, 249, 27);
+    color: black;
+    border: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.intro_section
+{
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro_img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.intro_p
+{
+    width: 650px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 45px;
+    font-family: BannaReg;
+    font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.about_section
+{
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about_title
+{
+    font-family: gald;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about_p
+{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: BannaReg;
+}
+
+.about_back_btn
+{
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(46, 42, 42);
+    color: wheat;
+    font-size: 40px;
+    font-family: gald;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about_back_btn:active
+{
+    background-color: rgb(71, 71, 71);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.projects_section
+{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects_title
+{
+    font-family: gald;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.projects_menu_btn_container
+{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects_menu_btn
+{
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(46, 42, 42);
+    color: wheat;
+    font-size: 32px;
+    font-family: gald;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.hcj_projects_menu
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.projects_btn
+{
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 28px;
+    font-family: gald;
+    font-weight: bold;
+    background-color: rgb(42, 42, 46);
+    color: wheat;
+    margin: 5px;
+}
+
+.react_projects_menu
+{
+    width: 100%;
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.projects_p
+{
+    font-size: 30px;
+    font-family: gald;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects_back_btn
+{
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(46, 42, 42);
+    color: wheat;
+    font-size: 40px;
+    font-family: gald;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.projects_back_btn:active
+{
+    background-color: rgb(71, 71, 71);
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+footer
+{
+    background-color: rgb(46, 42, 42);
+    height: 150px;
+    border-top: 5px solid rgb(80, 144, 80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title
+{
+    color: wheat;
+    font-size: 50px;
+    font-family: BannaReg;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.contact-info
+{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.linkedin-img
+{
+    width: 70px;
+    height: 70px;
+}
+
+.gmail-img
+{
+    width: 70px;
+    height: 70px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1000px)
+{
+    .intro_img
+    {
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .intro_p
+    {
+        width: 650px;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 40px;
+        font-family: BannaReg;
+        font-weight: bold;
+    }
+
+    /* ----------------------------------------- */
+
+    .about_section
+    {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_title
+    {
+        font-family: gald;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .about_p
+    {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: BannaReg;
+    }
+
+    .about_back_btn
+    {
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 30px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* ----------------------------------------- */
+
+    .projects_section
+    {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects_title
+    {
+        font-family: gald;
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .projects_menu_btn
+    {
+        text-align: center;
+        width: 270px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 30px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .projects_btn
+    {
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 22px;
+        font-family: gald;
+        font-weight: bold;
+        background-color: rgb(42, 42, 46);
+        color: wheat;
+        margin: 5px;
+    }
+
+    .projects_p
+    {
+        font-size: 24px;
+        font-family: gald;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .projects_back_btn
+    {
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 30px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    header
+    {
+        background-color: rgb(46, 42, 42);
+        height: 50px;
+        border-bottom: 5px solid rgb(80, 144, 80);
+        display: flex;
+    }
+
+    .my_nav
+    {
+        width: 100%;
+        height: 50px;
+    }
+
+    .nav_title_item
+    {
+        float: left;
+        font-size: 40px;
+        margin-left: 15px;
+        font-family: gald;
+        color: wheat;
+        margin-top: 5px;
+    }
+
+    .nav_link_btn
+    {
+        width: 100px;
+        height: 49px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(178, 241, 177);
+        background: none;
+        border: none;
+        border-left: 2px solid black;
+    }
+
+    /* ----------------------------------------- */
+
+    .intro_img
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .intro_p
+    {
+        width: 650px;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 25px;
+        font-family: BannaReg;
+        font-weight: bold;
+    }
+
+    /* ----------------------------------------- */
+
+    .about_section
+    {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_title
+    {
+        font-family: gald;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .about_p
+    {
+        font-size: 24px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: BannaReg;
+    }
+
+    .about_back_btn
+    {
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 25px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* ----------------------------------------- */
+
+    .projects_section
+    {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hcj_projects_menu
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .projects_title
+    {
+        font-family: gald;
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .projects_menu_btn
+    {
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 18px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .projects_btn
+    {
+        width: 180px;
+        height: 45px;
+        border-radius: 15px;
+        border: none;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+        font-family: gald;
+        font-weight: bold;
+        background-color: rgb(42, 42, 46);
+        color: wheat;
+        margin: 5px;
+    }
+
+    .projects_p
+    {
+        font-size: 18px;
+        font-family: gald;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .projects_back_btn
+    {
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 25px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    header
+    {
+        background-color: rgb(46, 42, 42);
+        height: 35px;
+        border-bottom: 5px solid rgb(80, 144, 80);
+        display: flex;
+    }
+
+    .my_nav
+    {
+        width: 100%;
+        height: 35px;
+    }
+
+    .nav_title_item
+    {
+        float: left;
+        font-size: 28px;
+        margin-left: 15px;
+        font-family: gald;
+        color: wheat;
+        margin-top: 5px;
+    }
+
+    .nav_link_btn
+    {
+        width: 100px;
+        height: 34px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(178, 241, 177);
+        background: none;
+        border: none;
+        border-left: 2px solid black;
+    }
+
+    /* ----------------------------------------- */
+
+    .intro_section
+    {
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .intro_img
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .intro_p
+    {
+        width: 650px;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 15px;
+        font-family: BannaReg;
+        font-weight: bold;
+    }
+
+    /* ----------------------------------------- */
+
+    .about_section
+    {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_title
+    {
+        font-family: gald;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .about_p
+    {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: BannaReg;
+    }
+
+    .about_back_btn
+    {
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 25px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* ----------------------------------------- */
+
+    .hcj_projects_menu
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .projects_title
+    {
+        font-family: gald;
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .projects_menu_btn
+    {
+        text-align: center;
+        width: 120px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 15px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .projects_btn
+    {
+        width: 140px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 16px;
+        font-family: gald;
+        font-weight: bold;
+        background-color: rgb(42, 42, 46);
+        color: wheat;
+        margin: 5px;
+    }
+
+    .projects_p
+    {
+        font-size: 15px;
+        font-family: gald;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .projects_back_btn
+    {
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(46, 42, 42);
+        color: wheat;
+        font-size: 25px;
+        font-family: gald;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+}
